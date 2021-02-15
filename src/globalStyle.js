@@ -6,5 +6,6 @@ export const GlobalStyle = createGlobalStyle`
     margin: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-color: #f0f0f7;
   }
 `;

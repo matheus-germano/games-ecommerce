@@ -1,3 +1,6 @@
+import cyberpunk from '../../images/cyberpunk.png'
+import cod from '../../images/cod.png'
+import spiderman from '../../images/spiderman.png'
 import tlou2 from '../../images/tlou2.png'
 import uncharted4 from '../../images/uncharted4.png'
 import hzd from '../../images/hzd.png'
@@ -5,25 +8,25 @@ import forza4 from '../../images/forza4.png'
 import gears5 from '../../images/gears5.png'
 import sot from '../../images/sot.png'
 
-export const featureGames = [
+export const newGames = [
   {
-    name: 'The last of us Part II',
-    price: 'R$ 30.00',
-    img: tlou2,
+    name: 'Cyberpunk 2077',
+    price: 'R$ 40.00',
+    img: cyberpunk,
     alt: 'game',
     button: 'Comprar agora',
   },
   {
-    name: 'Uncharted 4',
-    price: 'R$ 10.00',
-    img: uncharted4,
+    name: 'Call of Duty: Cold War',
+    price: 'R$ 40.00',
+    img: cod,
     alt: 'game',
     button: 'Comprar agora',
   },
   {
-    name: 'Horizon Zero Dawn',
-    price: 'R$ 15.00',
-    img: hzd,
+    name: 'Spider Man Miles Morales',
+    price: 'R$ 40.00',
+    img: spiderman,
     alt: 'game',
     button: 'Comprar agora',
   },
