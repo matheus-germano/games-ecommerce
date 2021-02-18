@@ -1,4 +1,4 @@
-import styled from 'styled-components'
+import styled, {css} from 'styled-components'
 
 export const ProductsContainer = styled.div`
   width: 100vw;
@@ -71,13 +71,16 @@ export const ProductPrice = styled.p`
 `;
 
 export const ProductButton = styled.button`
-  color: #333;
+  ${props => props.type == 3 
+  ? 'color: green; border: 2px solid green;' 
+  : props => props.type == 2 
+  ? 'color: blue; border: 2px solid blue;' 
+  : 'color: #333; border: 2px solid #333;'}
 
   width: 90%;
 
   font-weight: bold;
 
-  border: 2px solid #333;
   border-radius: 10px;
 
   padding: 20px;
@@ -86,10 +89,11 @@ export const ProductButton = styled.button`
   transition: .3s;
 
   &:hover {
-    background-color: #333;
-    color: #f0f0f7;
-
-    border: 2px solid #333;
+    ${props => props.type == 3 
+    ? 'color: #f0f0f7; background-color: green;' 
+    : props => props.type == 2 
+    ? 'color: #f0f0f7; background-color: blue;' 
+    : 'color: #f0f0f7; background-color: #333;'}
 
     transition: .3s;
 

@@ -10,6 +10,7 @@ import sot from '../../images/sot.png'
 
 export const newGames = [
   {
+    type: 1,
     name: 'Cyberpunk 2077',
     price: 'R$ 40.00',
     img: cyberpunk,
@@ -17,6 +18,7 @@ export const newGames = [
     button: 'Comprar agora',
   },
   {
+    type: 1,
     name: 'Call of Duty: Cold War',
     price: 'R$ 40.00',
     img: cod,
@@ -24,6 +26,7 @@ export const newGames = [
     button: 'Comprar agora',
   },
   {
+    type: 1,
     name: 'Spider Man Miles Morales',
     price: 'R$ 40.00',
     img: spiderman,
@@ -34,6 +37,7 @@ export const newGames = [
 
 export const sonyGames = [
   {
+    type: 2,
     name: 'The last of us Part II',
     price: 'R$ 30.00',
     img: tlou2,
@@ -41,6 +45,7 @@ export const sonyGames = [
     button: 'Comprar agora',
   },
   {
+    type: 2,
     name: 'Uncharted 4',
     price: 'R$ 10.00',
     img: uncharted4,
@@ -48,6 +53,7 @@ export const sonyGames = [
     button: 'Comprar agora',
   },
   {
+    type: 2,
     name: 'Horizon Zero Dawn',
     price: 'R$ 15.00',
     img: hzd,
@@ -58,6 +64,7 @@ export const sonyGames = [
 
 export const xboxGames = [
   {
+    type: 3,
     name: 'Forza Horizon 4',
     price: 'R$ 10.00',
     img: forza4,
@@ -65,6 +72,7 @@ export const xboxGames = [
     button: 'Comprar agora',
   },
   {
+    type: 3,
     name: 'Gears 5',
     price: 'R$ 15.00',
     img: gears5,
@@ -72,6 +80,7 @@ export const xboxGames = [
     button: 'Comprar agora',
   },
   {
+    type: 3,
     name: 'Sea of Thives',
     price: 'R$ 10.00',
     img: sot,

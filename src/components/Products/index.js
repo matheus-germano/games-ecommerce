@@ -14,7 +14,7 @@ const Products = ({heading, data}) => {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton>{product.button}</ProductButton>
+                <ProductButton type={product.type}>{product.button}</ProductButton>
               </ProductInfo>
             </ProductCard>
           )
