@@ -1,4 +1,5 @@
 import React from 'react'
+import { MdAddShoppingCart } from 'react-icons/md'
 
 import { ProductsContainer, ProductsHeading, ProductsWrapper, ProductCard, ProductImg, ProductInfo, ProductTitle, ProductPrice, ProductButton } from './ProductsElements'
 
@@ -14,7 +15,7 @@ const Products = ({heading, data}) => {
               <ProductInfo>
                 <ProductTitle>{product.name}</ProductTitle>
                 <ProductPrice>{product.price}</ProductPrice>
-                <ProductButton type={product.type}>{product.button}</ProductButton>
+                <ProductButton type={product.type}>{product.button}<MdAddShoppingCart/></ProductButton>
               </ProductInfo>
             </ProductCard>
           )
